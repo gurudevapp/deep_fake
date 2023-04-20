@@ -1,5 +1,5 @@
 import os
-import sy
+import sys
 import pytest
 
 ss_path = os.path.dirname(__file__) + '/SimSwap'
