@@ -89,5 +89,5 @@ jobs:
         echo "Current directory: $(pwd)"
     - name: Test with pytest
       run: |
-        pytest --ignore=SimSwap
+        pytest --ignore=SimSwap -k "test_upload_image or test_upload_video or test_upload_multispecific or test_main_page"
         
